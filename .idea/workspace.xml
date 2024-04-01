@@ -34,17 +34,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Alter" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Alter" type="f1a62948:ProjectNode" />
-                <item name=":game-server" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Alter" type="f1a62948:ProjectNode" />
-                <item name=":game-server" type="2d1252cf:ModuleNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -83,7 +72,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lionk/Desktop/Alter-dodian",
+    "last_opened_file_path": "C:/Users/lionk/Desktop/Alter-dodian/caches",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -94,7 +87,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Gebruiker\Documents\GitHub\Alter-dodian" />
+      <recent name="C:\Users\lionk\Desktop\Alter-dodian\caches" />
+      <recent name="C:\Users\lionk\Desktop\Alter-dodian\.tmp" />
+      <recent name="C:\Users\lionk\Desktop\Alter-dodian\.run" />
+      <recent name="C:\Users\lionk\Desktop\Alter-dodian\.idea" />
+      <recent name="C:\Users\lionk\Desktop\Alter-dodian\wrapper\dists\gradle-8.1.1-bin\9wiye5v2saajue4irfo8ybqfp\gradle-8.1.1" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Alter-dodian:game-server [install]">
@@ -141,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708636793875</updated>
-      <workItem from="1712007290391" duration="252000" />
+      <workItem from="1712007290391" duration="685000" />
     </task>
     <servers />
   </component>
