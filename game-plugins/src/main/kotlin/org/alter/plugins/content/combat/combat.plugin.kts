@@ -14,9 +14,9 @@ set_combat_logic {
     pawn.attr[COMBAT_TARGET_FOCUS_ATTR]?.get()?.let { target ->
         pawn.facePawn(target)
     }
+    while (true) {
 
     pawn.queue {
-        while (true) {
             if (!cycle(this)) {
                 break
             }
