@@ -34,3 +34,4 @@ first-launch-example
 /.run
 .bitoignore
 /jdks
+/.idea

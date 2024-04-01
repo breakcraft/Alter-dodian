@@ -59,6 +59,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Gradle.Alter-dodian:game-server [install].executor": "Run",
+    "Gradle.Build Alter-dodian.executor": "Run",
     "Gradle.Run Server.executor": "Run",
     "Gradle.Setup Server Credentials.executor": "Run",
     "NIXITCH_NIXPKGS_CONFIG": "",
@@ -72,7 +73,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lionk/Desktop/Alter-dodian/caches",
+    "last_opened_file_path": "C:/Users/lionk/Desktop/Alter-dodian",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,11 +88,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lionk\Desktop\Alter-dodian\caches" />
-      <recent name="C:\Users\lionk\Desktop\Alter-dodian\.tmp" />
-      <recent name="C:\Users\lionk\Desktop\Alter-dodian\.run" />
-      <recent name="C:\Users\lionk\Desktop\Alter-dodian\.idea" />
-      <recent name="C:\Users\lionk\Desktop\Alter-dodian\wrapper\dists\gradle-8.1.1-bin\9wiye5v2saajue4irfo8ybqfp\gradle-8.1.1" />
+      <recent name="C:\Users\lionk\Desktop\Alter-dodian" />
+      <recent name="C:\Users\lionk\Desktop\Alter-dodian\data\cache" />
+      <recent name="C:\Users\lionk\Desktop\Alter-dodian\daemon\8.1.1" />
+      <recent name="C:\Users\lionk\Desktop\Alter-dodian\daemon" />
+      <recent name="C:\Users\lionk\Desktop\Alter-dodian\caches\transforms-3" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Alter-dodian:game-server [install]">
@@ -138,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708636793875</updated>
-      <workItem from="1712007290391" duration="685000" />
+      <workItem from="1712007290391" duration="841000" />
     </task>
     <servers />
   </component>
