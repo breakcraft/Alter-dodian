@@ -32,3 +32,5 @@ first-launch-example
 /.idea
 /.idea
 /.run
+.bitoignore
+/jdks
