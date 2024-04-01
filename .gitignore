@@ -20,3 +20,13 @@ first-launch-example
 /game.yml
 /dev-settings.yml
 
+/.tmp
+/.idea
+/caches
+/wrapper
+/kotlin-profile
+/daemon
+/.idea
+/native
+/native
+/.idea
