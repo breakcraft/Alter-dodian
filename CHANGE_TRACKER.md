@@ -20,6 +20,7 @@
 - Documented lumbridge plugin restoration commit at [docs/history/e66e39e6.md](docs/history/e66e39e6.md)
 - Clarified warning notes in `DoomsayerPlugin.kt` and removed obsolete TODO block
 - Tweaked punctuation for Doomsayer's dialogue and confirmed wording in Prayer Tutor and Bartender plugins
+- Expanded KDoc usage notes for door helpers
 ## TODO
 - Expand Helm values for advanced configuration
 
