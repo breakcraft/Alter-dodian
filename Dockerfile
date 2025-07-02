@@ -8,7 +8,7 @@
 # code.
 
 # Use kotlin image to run the server.
-FROM zenika/kotlin:1.3-eap-jdk8-alpine
+FROM openjdk:21-jdk-slim
 
 # Define `directory` as '/app/'
 ENV directory /app/
@@ -17,7 +17,7 @@ ENV directory /app/
 WORKDIR ${directory}
 
 # Copy distribution archive
-ADD game/build/distributions/game-shadow-*.zip .
+ADD game-server/build/distributions/game-shadow-*.zip .
 
 # Unzip distribution archive
 RUN unzip -q -o *.zip
