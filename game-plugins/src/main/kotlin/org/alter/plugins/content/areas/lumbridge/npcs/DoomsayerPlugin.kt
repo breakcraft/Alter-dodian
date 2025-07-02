@@ -64,30 +64,33 @@ class DoomsayerPlugin(
         }
     }
 
-    /*0 starting 7 Disabled 6 Enabled
-    if 6 "You have toggled this warning screen on. You will see this interface again."
-    if 7 "You have toggles this warning screen off. You will no longer see this warning screen"
-    Varbits value to what it does
-    3851 is Dagannoth Kings' ladder
-    3852 is Contact Dungeon Ladder
-    3853 is Falador Mole Lair
-    3854 is Stronghold of Security Ladders
-    3855 is Player-Owned Houses
-    3856 is Dropped Items in Random Events
-    3857 is Wilderness Ditch
-    3858 is Trollheim Wilderness Entrance
-    3859 is Observatory Stairs
-    3860 is Shantay Pass
-    3861 is Icy Path Area
-    3862 is Watchtower Shaman Cave
-    3863 is Lumbridge Swamp Cave Rope
-    3864 is H.A.M Tunnel from Mill
-    3865 is Fairy Ring to Dorgesh-Raan
-    3866 is Lumbridge Cellar
-    3867 is Elid Genie Cave
-    3868 is Dorgesh-kaan Tunnel to Kalphites
-    3869 is Dorgesh-kaan City Exit
-    3870 is Mort-Myre
-    3871 is Ranging Guild Towner
-    3872 is Death Plateau*/
+    /*
+     * Warning toggle values:
+     *   6 - enabled
+     *   7 - disabled
+     *
+     * Varbit mapping for warnings:
+     *   3851 - Dagannoth Kings' ladder
+     *   3852 - Contact Dungeon ladder
+     *   3853 - Falador Mole Lair
+     *   3854 - Stronghold of Security Ladders
+     *   3855 - Player-Owned Houses
+     *   3856 - Dropped Items in Random Events
+     *   3857 - Wilderness Ditch
+     *   3858 - Trollheim Wilderness Entrance
+     *   3859 - Observatory Stairs
+     *   3860 - Shantay Pass
+     *   3861 - Icy Path Area
+     *   3862 - Watchtower Shaman Cave
+     *   3863 - Lumbridge Swamp Cave Rope
+     *   3864 - H.A.M Tunnel from Mill
+     *   3865 - Fairy Ring to Dorgesh-Raan
+     *   3866 - Lumbridge Cellar
+     *   3867 - Elid Genie Cave
+     *   3868 - Dorgesh-kaan Tunnel to Kalphites
+     *   3869 - Dorgesh-kaan City Exit
+     *   3870 - Mort-Myre
+     *   3871 - Ranging Guild Tower
+     *   3872 - Death Plateau
+     */
 }
