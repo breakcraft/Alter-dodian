@@ -12,6 +12,7 @@
 - Created Grafana dashboard placeholder at docs/grafana/alter.json
 - Inserted dependencies for Ktor and Micrometer
 - Updated game.example.yml to include MetricsService
+- Added EOF newlines to Lumbridge plugin source files for consistency
 
 ## TODO
 - Expand Helm values for advanced configuration
