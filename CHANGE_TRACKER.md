@@ -8,10 +8,20 @@
 - Documented Helm usage in README
 - Added `ROADMAP.md` describing sprint goals and linked it from the README.
 - Created placeholder dashboard directory at `docs/grafana/`.
+- Added Prometheus metrics endpoint via Ktor MetricsService
+- Created Grafana dashboard placeholder at docs/grafana/alter.json
+- Inserted dependencies for Ktor and Micrometer
+- Updated game.example.yml to include MetricsService
 
 ## TODO
 - Expand Helm values for advanced configuration
 
+## Outstanding
+- Implement structured logging with kotlin-logging
+- Setup persistent data layer with PostgreSQL
+
 ## Planned Enhancements
-- N/A
+- Add GitHub Actions CI matrix
+- Implement plugin hot-reload
 - Clarified Helm installation step
+
