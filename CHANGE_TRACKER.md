@@ -12,6 +12,7 @@
 - Created Grafana dashboard placeholder at docs/grafana/alter.json
 - Inserted dependencies for Ktor and Micrometer
 - Updated game.example.yml to include MetricsService
+- Added Gradle wrapper scripts and updated `.gitignore` to track them
 
 ## TODO
 - Expand Helm values for advanced configuration
