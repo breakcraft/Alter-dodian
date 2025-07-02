@@ -32,6 +32,15 @@ fun World.openDoor(
     return newDoor
 }
 
+/**
+ * Convenience overload of [openDoor] that resolves the opened door id from an
+ * object name.
+ *
+ * @param obj the door object to open
+ * @param opened the RSCM identifier of the opened door object
+ * @param invertRot when true, rotates the new door in the opposite direction
+ * @param invertTransform whether to invert the tile transformation
+ */
 fun World.openDoor(
     obj: GameObject,
     opened: String,
@@ -65,6 +74,15 @@ fun World.closeDoor(
     return newDoor
 }
 
+/**
+ * Convenience overload of [closeDoor] that resolves the closed door id from an
+ * object name.
+ *
+ * @param obj the door object to close
+ * @param closed the RSCM identifier of the closed door object
+ * @param invertRot when true, rotates the new door in the opposite direction
+ * @param invertTransform whether to invert the tile transformation
+ */
 fun World.closeDoor(
     obj: GameObject,
     closed: String,

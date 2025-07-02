@@ -15,6 +15,7 @@
 - Added Gradle wrapper scripts and updated `.gitignore` to track them
 - Corrected dialogue typos in Doomsayer, Prayer Tutor and Bartender plugins
 - Ensured gradle.properties ends with a newline for consistent formatting
+- Documented parameters for door helpers in WorldExt
 
 ## TODO
 - Expand Helm values for advanced configuration
@@ -27,4 +28,3 @@
 - Add GitHub Actions CI matrix
 - Implement plugin hot-reload
 - Clarified Helm installation step
-
