@@ -26,8 +26,13 @@ class DoorPlugin(
     init {
 
         onObjOption("object.door_1535", option = "open") {
-            val obj = player.getInteractingGameObj();
-            player.message(obj.toString())
+            val obj = player.getInteractingGameObj()
+            world.openDoor(obj, "object.door_1536")
+        }
+
+        onObjOption("object.door_1536", option = "close") {
+            val obj = player.getInteractingGameObj()
+            world.closeDoor(obj, "object.door_1535")
         }
     }
 }
