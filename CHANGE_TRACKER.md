@@ -14,6 +14,7 @@
 - Updated game.example.yml to include MetricsService
 - Added Gradle wrapper scripts and updated `.gitignore` to track them
 - Corrected dialogue typos in Doomsayer, Prayer Tutor and Bartender plugins
+- Ensured gradle.properties ends with a newline for consistent formatting
 
 ## TODO
 - Expand Helm values for advanced configuration
