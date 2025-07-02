@@ -85,6 +85,8 @@ To build all modules instead, execute:
 ## Contributing
 Have a feature request? Please [open an issue](https://github.com/AlterRSPS/Alter-dodian/issues) describing what you'd like to see.
 
+The current development backlog lives in [ROADMAP.md](ROADMAP.md). It outlines each sprint goal and its Definition of Done.
+
 ## Acknowledgments
 - This project uses [OpenRune-FileStore](https://github.com/OpenRune/OpenRune-FileStore) for cache management.
 - RsMod2 Route finder: [RouteFinder](https://github.com/rsmod/rsmod/tree/main/engine/routefinder)
