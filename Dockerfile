@@ -22,7 +22,7 @@ ENV directory /app/
 WORKDIR ${directory}
 
 # Copy distribution archive
-ADD game-server/build/distributions/game-shadow-*.zip .
+ADD game-server/build/distributions/game-server-shadow-*.zip .
 
 # Unzip distribution archive
 RUN unzip -q -o *.zip
