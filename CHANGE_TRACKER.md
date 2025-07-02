@@ -21,6 +21,7 @@
 - Clarified warning notes in `DoomsayerPlugin.kt` and removed obsolete TODO block
 - Tweaked punctuation for Doomsayer's dialogue and confirmed wording in Prayer Tutor and Bartender plugins
 - Expanded KDoc usage notes for door helpers
+- Added Gradle build and Docker steps in CI workflow
 ## TODO
 - Expand Helm values for advanced configuration
 
