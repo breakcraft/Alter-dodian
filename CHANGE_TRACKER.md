@@ -36,3 +36,4 @@
 - Add GitHub Actions CI matrix
 - Implement plugin hot-reload
 - Clarified Helm installation step
+- Fixed Dockerfile distribution path for shadow archive
