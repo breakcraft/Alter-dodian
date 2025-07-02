@@ -13,6 +13,7 @@
 - Inserted dependencies for Ktor and Micrometer
 - Updated game.example.yml to include MetricsService
 - Added Gradle wrapper scripts and updated `.gitignore` to track them
+- Corrected dialogue typos in Doomsayer, Prayer Tutor and Bartender plugins
 
 ## TODO
 - Expand Helm values for advanced configuration

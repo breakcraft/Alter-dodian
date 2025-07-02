@@ -42,7 +42,7 @@ class BartenderPlugin(
 
             2 -> {
                 chatPlayer(player, "Heard any rumors recently?")
-                chatNpc(player, "One of the patrons here is looking for treasure<br><br>apparently. A chap byu the name of Veos.")
+                chatNpc(player, "One of the patrons here is looking for treasure<br><br>apparently. A chap by the name of Veos.")
             }
 
             3 -> chatPlayer(player, "Nothing, I'm fine.")

@@ -44,7 +44,7 @@ class PrayerTutorPlugin (
         chatPlayer(player, "How can I train my prayer?")
         chatNpc(player, "The most common way to train prayer is by either<br>burying bones, or offering them to the gods at some<br>kind of an altar.")
         chatNpc(player,
-            "Lots of adventurers build such altars in their own<br>homes, or there are a few frequent places of warship<br>around the world.",
+            "Lots of adventurers build such altars in their own<br>homes, or there are a few frequent places of worship<br>around the world.",
         )
         chatNpc(player,
             "Different kinds of bones will help you train faster.<br>Generally speaking, the bigger they are and the more<br>frightening a creature they come from, the better they are for it.",
@@ -59,11 +59,11 @@ class PrayerTutorPlugin (
     private suspend fun QueueTask.prayerUseful(player: Player) {
         chatPlayer(player, "What is prayer useful for?")
         chatNpc(player,
-            "The gods look kindly upon their devout followers. There<br>are all kinds of denefits they may provide, if you pray<br>for them!",
+            "The gods look kindly upon their devout followers. There<br>are all kinds of benefits they may provide, if you pray<br>for them!",
         )
         chatPlayer(player, "Really? What kind of benefits?")
         chatNpc(player,
-            "They could help you in combat, help your wonds to<br>heal more quickly, protect your belongings... There's a<br>lot they can do for you!",
+            "They could help you in combat, help your wounds to<br>heal more quickly, protect your belongings... There's a<br>lot they can do for you!",
         )
         player.focusTab(GameframeTab.PRAYER)
         chatNpc(player, "You can find out more by looking in your prayer book.")
