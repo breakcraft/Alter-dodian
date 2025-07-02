@@ -10,6 +10,11 @@
 # Use kotlin image to run the server.
 FROM openjdk:21-jdk-slim
 
+# Install unzip for extracting the distribution archive
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends unzip \
+    && rm -rf /var/lib/apt/lists/*
+
 # Define `directory` as '/app/'
 ENV directory /app/
 

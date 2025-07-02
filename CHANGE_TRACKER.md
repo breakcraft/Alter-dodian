@@ -22,6 +22,7 @@
 - Tweaked punctuation for Doomsayer's dialogue and confirmed wording in Prayer Tutor and Bartender plugins
 - Expanded KDoc usage notes for door helpers
 - Updated Dockerfile and CI workflow to build game-server distribution with caching and OpenJDK 21
+- Added unzip installation step in Dockerfile so image builds correctly
 ## TODO
 - Expand Helm values for advanced configuration
 
