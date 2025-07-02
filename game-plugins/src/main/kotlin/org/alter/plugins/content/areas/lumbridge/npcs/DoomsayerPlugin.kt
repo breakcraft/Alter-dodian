@@ -45,10 +45,8 @@ class DoomsayerPlugin(
         )
         chatPlayer(player, "But what if I want to see the warnings again?")
         chatNpc(player, "That's why I’m waiting!")
-        chatNpc(player, "If you want to see the warning messages again, I can<br><br>turn them back on for you.")/*if (player.warning == 0) {
-            chatPlayer("Thanks, I'll remember that if I see any warning<br><br>messages.")
-            chatNpc("You're welcome!")
-        } else */
+        chatNpc(player, "If you want to see the warning messages again, I can<br><br>turn them back on for you.")
+        // TODO: track player warning preference once varbits are hooked up
         chatNpc(player, "Do you need to turn on any warnings right now?")
         when (options(player, "Yes, I do.", "Not right now.")) {
             1 -> {
@@ -65,11 +63,11 @@ class DoomsayerPlugin(
     }
 
     /*
-     * Warning toggle values:
-     *   6 - enabled
-     *   7 - disabled
+     * Warning toggle varbit values:
+     *   6 = enabled
+     *   7 = disabled
      *
-     * Varbit mapping for warnings:
+     * Warning varbits:
      *   3851 - Dagannoth Kings' ladder
      *   3852 - Contact Dungeon ladder
      *   3853 - Falador Mole Lair
