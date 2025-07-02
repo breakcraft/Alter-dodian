@@ -4,13 +4,32 @@
 # Alter
 [![revision: 228][rev-badge]][patch] [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.com/invite/sAzCuuwkpN) ![jdk-badge] ![](https://tokei.rs/b1/github/AlterRSPS/Alter)
 
-**Alter** is a modified version of [RSMod](https://github.com/Tomm0017/rsmod) a highly flexible user-friendly game server for use with the OSRS client. Implemented in a modular way,
-the framework allows developers to make and create any sort of plugin they wish without having to modify the core game module.
+**Alter** is a modified version of [RSMod](https://github.com/Tomm0017/rsmod) a highly flexible user-friendly game server for use with the OSRS client.
+The project is a **highly customized OSRS server** with a built‑in plugin system that lets you drop new features in without touching core code.
+It is split into two main subprojects:
+
+* `game-server` – the core game logic and plugin loader
+* `http-api` – a Ktor-based API for external integrations
+
+The framework allows developers to make and create any sort of plugin they wish without having to modify the core game module.
 Due to the plugin capabilities, even owners without programming experience can just have others make plugins for them and simply drop them into the plugins module to be automatically loaded on the next startup!
 #### I found a bug, where can I report it?
 - You can report them by creating Issue on [GitHub](https://github.com/AlterRSPS/Alter/issues) or in Alter's [Discord Server](https://discord.gg/kdhBuRaduw)
 #  Server setup
 * Youtube tutorial: https://www.youtube.com/watch?v=2Tu-NTzMbf0
+
+## Quick local setup
+Clone the repo, ensure JDK 17 is installed and run:
+
+```bash
+./gradlew :game-server:run
+```
+
+To build all modules instead, execute:
+
+```bash
+./gradlew build
+```
 
 * ### First of all Download:
 * [Xteas](https://archive.openrs2.org/caches/runescape/2038/keys.json) Save as `xteas.json` inside `/data/` Directory.
@@ -63,6 +82,9 @@ Due to the plugin capabilities, even owners without programming experience can j
 
 > [!WARNING]
 > And stay away from client's like Devious, as they have been caught adding Account Stealer into their client.
+## Contributing
+Have a feature request? Please [open an issue](https://github.com/AlterRSPS/Alter-dodian/issues) describing what you'd like to see.
+
 ## Acknowledgments
 - This project uses [OpenRune-FileStore](https://github.com/OpenRune/OpenRune-FileStore) for cache management.
 - RsMod2 Route finder: [RouteFinder](https://github.com/rsmod/rsmod/tree/main/engine/routefinder)
