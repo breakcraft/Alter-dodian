@@ -33,3 +33,4 @@
 - Add GitHub Actions CI matrix
 - Implement plugin hot-reload
 - Clarified Helm installation step
+- Merged bin directory during Docker build to avoid mv error
