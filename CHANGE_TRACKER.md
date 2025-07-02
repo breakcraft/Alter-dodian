@@ -18,7 +18,6 @@
 - Documented parameters for door helpers in WorldExt
 - Documented lumbridge plugin restoration commit at [docs/history/e66e39e6.md](docs/history/e66e39e6.md)
 - Tidied trailing comments in `DoomsayerPlugin.kt` and clarified warning varbit mapping
- - Tidied trailing comments in `DoomsayerPlugin.kt` and clarified warning varbit mapping
 
 ## TODO
 - Expand Helm values for advanced configuration
@@ -29,3 +28,7 @@
 
 ## Planned Enhancements
 - Add GitHub Actions CI matrix
+- Implement plugin hot-reload
+- Clarified Helm installation step
+
+- Ran `gradle wrapper` to verify wrapper files; no changes.
