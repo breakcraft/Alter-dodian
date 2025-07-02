@@ -31,7 +31,7 @@ class DoomsayerPlugin(
         chatPlayer(player, "Is there anything we can do about this doom?")
         chatNpc(
             player,
-            "There is nothing you need to do my friend! I am the<br>Doomsayer, although my real title could be something<br>like the Danger Tutor.",
+            "There is nothing you need to do my friend, I am the<br>Doomsayer, although my real title could be something<br>like the Danger Tutor.",
         )
         chatPlayer(player, "Danger Tutor?")
         chatNpc(player, "Yes! I roam the world sensing danger.")
@@ -44,7 +44,7 @@ class DoomsayerPlugin(
             "If you see the signs often enough, then you can turn<br>them off; by that time you likely know what the area<br> has in store for you.",
         )
         chatPlayer(player, "But what if I want to see the warnings again?")
-        chatNpc(player, "That's why I'm waiting here!")
+        chatNpc(player, "That's why I’m waiting!")
         chatNpc(player, "If you want to see the warning messages again, I can<br><br>turn them back on for you.")/*if (player.warning == 0) {
             chatPlayer("Thanks, I'll remember that if I see any warning<br><br>messages.")
             chatNpc("You're welcome!")

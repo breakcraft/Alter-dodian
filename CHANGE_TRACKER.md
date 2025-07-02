@@ -18,6 +18,7 @@
 - Documented parameters for door helpers in WorldExt
 - Documented lumbridge plugin restoration commit at [docs/history/e66e39e6.md](docs/history/e66e39e6.md)
 - Tidied trailing comments in `DoomsayerPlugin.kt` and clarified warning varbit mapping
+- Tweaked punctuation for Doomsayer's dialogue and confirmed wording in Prayer Tutor and Bartender plugins
 
 ## TODO
 - Expand Helm values for advanced configuration
@@ -30,5 +31,3 @@
 - Add GitHub Actions CI matrix
 - Implement plugin hot-reload
 - Clarified Helm installation step
-
-- Ran `gradle wrapper` to verify wrapper files; no changes.
