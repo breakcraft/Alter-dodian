@@ -21,7 +21,7 @@
 - Clarified warning notes in `DoomsayerPlugin.kt` and removed obsolete TODO block
 - Tweaked punctuation for Doomsayer's dialogue and confirmed wording in Prayer Tutor and Bartender plugins
 - Expanded KDoc usage notes for door helpers
-- Added Gradle build and Docker steps in CI workflow
+- Updated Dockerfile and CI workflow to build game-server distribution with caching and OpenJDK 21
 ## TODO
 - Expand Helm values for advanced configuration
 
@@ -33,4 +33,3 @@
 - Add GitHub Actions CI matrix
 - Implement plugin hot-reload
 - Clarified Helm installation step
-- Merged bin directory during Docker build to avoid mv error

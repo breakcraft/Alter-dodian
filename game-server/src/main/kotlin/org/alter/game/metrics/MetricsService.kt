@@ -18,7 +18,7 @@ class MetricsService : Service {
     override fun init(server: Server, world: World, serviceProperties: ServerProperties) {
         registry = PrometheusMeterRegistry(io.micrometer.prometheus.PrometheusConfig.DEFAULT)
         embeddedServer(Netty, port = serviceProperties.getOrDefault("metrics-port", 8081)) {
-            install(MicrometerMetrics) { meterRegistry = registry }
+            install(MicrometerMetrics) { this.registry = this@MetricsService.registry }
             routing {
                 get("/prometheus-metrics") { call.respondText(registry.scrape()) }
             }
