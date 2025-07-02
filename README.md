@@ -104,3 +104,4 @@ helm install alter ./deploy/helm/alter
 ```
 
 
+Use helm install to set up quickly.

@@ -12,3 +12,4 @@
 
 ## Planned Enhancements
 - N/A
+- Clarified Helm installation step
