@@ -96,3 +96,11 @@ Have a feature request? Please [open an issue](https://github.com/AlterRSPS/Alte
 [rev-badge]: https://img.shields.io/badge/Revision-228-blueviolet
 [license-badge]: https://img.shields.io/badge/license-ISC-informational
 [jdk-badge]: https://img.shields.io/badge/JDK-17-blue
+
+## Helm Chart
+A minimal Helm chart is located under `deploy/helm/alter`. Use it to deploy Alter-dodian to Kubernetes:
+```bash
+helm install alter ./deploy/helm/alter
+```
+
+

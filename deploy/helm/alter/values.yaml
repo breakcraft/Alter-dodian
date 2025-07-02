@@ -1,0 +1,6 @@
+image:
+  repository: alterrsps/alter
+  tag: latest
+service:
+  type: ClusterIP
+  port: 43594
