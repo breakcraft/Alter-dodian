@@ -24,10 +24,11 @@
 - Updated Dockerfile and CI workflow to build game-server distribution with caching and OpenJDK 21
 - Added unzip installation step in Dockerfile so image builds correctly
 - Published Docker image to GitHub Container Registry via workflow
-- Fixed Dockerfile move command to merge bin contents without errors
+- Resolved Docker build failure by merging distribution files with cp instead of mv
 
 ## TODO
 - Expand Helm values for advanced configuration
+- Run full Gradle build after caching dependencies
 
 ## Outstanding
 - Implement structured logging with kotlin-logging
