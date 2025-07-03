@@ -31,11 +31,10 @@ RUN unzip -q -o *.zip
 RUN rm -fv *.zip
 
 # Move distribution files from "game-${version}" to ${WORKDIR} ["."]
-RUN mv game*/* .
-
-# Delete "game-${version}" folder as its contents have been moved
-# to working directory
-RUN rm -rf game*
+RUN mkdir -p bin \
+    && mv game*/bin/* ./bin/ \
+    && mv game*/* ./ \
+    && rm -rf game*
 
 # Swap the work directory to the "bin" folder
 WORKDIR bin
