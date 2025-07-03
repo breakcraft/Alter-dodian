@@ -37,3 +37,4 @@
 - Implement plugin hot-reload
 - Clarified Helm installation step
 - Fixed Dockerfile distribution path for shadow archive
+- Merged bin directory during Docker build to avoid mv error
