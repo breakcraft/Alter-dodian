@@ -25,6 +25,7 @@
 - Added unzip installation step in Dockerfile so image builds correctly
 - Published Docker image to GitHub Container Registry via workflow
 - Resolved Docker build failure by merging distribution files with cp instead of mv
+- Replaced mv step with cp to avoid bin directory conflicts
 
 ## TODO
 - Expand Helm values for advanced configuration

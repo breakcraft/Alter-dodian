@@ -31,7 +31,7 @@ RUN unzip -q -o *.zip
 RUN rm -fv *.zip
 
 # Move distribution files from "game-${version}" to ${WORKDIR} ["."]
-RUN cp -a game*/* .
+RUN cp -a game*/. ./
 
 # Delete "game-${version}" folder as its contents have been moved
 # to working directory
