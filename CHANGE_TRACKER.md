@@ -30,6 +30,7 @@
 ## TODO
 - Expand Helm values for advanced configuration
 - Run full Gradle build after caching dependencies
+- Provide data cache for Gradle tasks; current build fails due to missing main_file_cache.dat2
 
 ## Outstanding
 - Implement structured logging with kotlin-logging
