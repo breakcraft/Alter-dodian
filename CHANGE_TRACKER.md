@@ -24,6 +24,8 @@
 - Updated Dockerfile and CI workflow to build game-server distribution with caching and OpenJDK 21
 - Added unzip installation step in Dockerfile so image builds correctly
 - Published Docker image to GitHub Container Registry via workflow
+- Fixed Dockerfile to move distribution contents safely when bin directory
+  exists
 
 ## TODO
 - Expand Helm values for advanced configuration
